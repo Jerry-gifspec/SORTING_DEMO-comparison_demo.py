@@ -25,29 +25,6 @@ numbers_list = [
     53, 42
 ]
 
-# numbers_list[1,2,3,4,5,6,7,8,9,10]
-#number_list_almost_sorted = [3,5,1,1,19,2,313,7,6,4]
-
-# def main():
-#     input("choose first algo") # bubble_sort
-#     input("choose second algo")# merge_sort
-#     input("choose list algo") # really log list
-
-#     run_sorting_algorithm("bubble_sort", numbers_list)
-#     run_sorting_algorithm("insertion_sort", numbers_list)
-#     #print(insertion_sort(numbers_list))
-
-# def main():
-#     run_sorting_algorithm("comparison_demo", numbers_list)
-
-# numbers_list_many_unique_values
-# numbers_list_all_unique
-# numbers_list_large_numbers
-# numbers_list = [1,2,3,4,5,6,7,8,9,10]
-
-# selection_sort() -> individual files for each
-# merge_sort()
-
 # Merge Sort Implementation
 def merge_sort(arr):
     if len(arr) <= 1:
