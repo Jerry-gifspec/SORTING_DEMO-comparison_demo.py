@@ -105,13 +105,11 @@ numbers = [
     90, 77, 63, 50, 37, 26, 15, 84, 71, 59, 46, 34, 23, 12, 91, 78
 ]
 
-# Sorting using different algorithms
 merge_sorted_numbers = merge_sort(numbers.copy())
 heap_sorted_numbers = heap_sort(numbers.copy())
 quick_sorted_numbers = quick_sort(numbers.copy())
 timsort_sorted_numbers = tim_sort(numbers.copy())
 
-# Print sorted lists
 print("\nMerge Sort:\n", merge_sorted_numbers,"\n")
 print("\nHeap Sort:\n", heap_sorted_numbers,"\n")
 print("\nQuick Sort:\n", quick_sorted_numbers,"\n")
